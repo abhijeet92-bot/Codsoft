@@ -1,0 +1,438 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+/* Navigation - Responsive Header */
+.container {
+    background-color: black;
+    min-height: 80px;
+    padding: 20px 5%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.nav-links-group {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px 40px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(189, 186, 186);
+    font-size: 25px;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: rgb(63, 63, 248);
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+}
+
+#btn {
+    padding: 10px 20px;
+    background-color: rgb(27, 27, 223);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+}
+
+#btn:hover {
+    background-color: rgb(20, 20, 180);
+}
+
+/* Section 1: Hero area */
+.container-1 {
+    background-color: black;
+    color: white;
+    padding: 50px 10%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    flex: 1.2;
+    min-width: 280px;
+}
+
+.container-1 h1 span {
+    color: rgb(118, 118, 255);
+    font-size: 3rem;
+}
+
+.container-1 p {
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.hero-image-container {
+    flex: 0.8;
+    min-width: 280px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-1 img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#btn-1 {
+    margin: 40px 0;
+    padding: 15px 30px;
+    font-size: larger;
+    background-color: rgb(28, 28, 190);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#btn-1:hover {
+    background-color: rgb(20, 20, 150);
+}
+
+/* Section 2: Newsletter */
+.container-2 {
+    background-color: rgb(28, 28, 190);
+    min-height: 110px;
+    padding: 25px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.sign {
+    color: white;
+    font-size: 35px;
+}
+
+.newsletter-form {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: flex-end;
+    max-width: 700px;
+}
+
+#email {
+    padding: 15px;
+    width: 100%;
+    max-width: 500px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+#btn-2 {
+    padding: 12px 25px;
+    width: 140px;
+    background-color: rgb(39, 38, 38);
+    color: white;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#btn-2:hover {
+    background-color: black;
+}
+
+/* Section 3: Learn the Fundamentals */
+.container-3 {
+    padding: 60px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.section-image-container {
+    flex: 1;
+    min-width: 280px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-3 img {
+    max-width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.section-content {
+    flex: 1.2;
+    min-width: 280px;
+}
+
+.container-3 h2 {
+    font-size: 2.2rem;
+}
+
+.container-3 p {
+    text-align: left;
+    font-size: larger;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+#btn-3 {
+    padding: 15px 30px;
+    background-color: rgb(25, 24, 24);
+    color: white;
+    margin-top: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.2s ease;
+}
+
+#btn-3:hover {
+    background-color: black;
+}
+
+/* Section 4: Learn React */
+.container-4 {
+    margin-top: 60px;
+    background-color: black;
+    color: white;
+    padding: 60px 10%;
+    min-height: 408px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.container-4 .section-content {
+    flex: 1.2;
+    min-width: 280px;
+}
+
+.container-4 p {
+    text-align: left;
+    font-size: larger;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+h2 span {
+    color: rgb(56, 235, 56);
+    font-weight: lighter;
+    font-size: xx-large;
+}
+
+#btn-4 {
+    background-color: white;
+    color: black;
+    padding: 15px 30px;
+    margin-top: 25px;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+#btn-4:hover {
+    opacity: 0.9;
+}
+
+.container-4 img {
+    max-width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Footer Section */
+.foot {
+    background-color: rgb(188, 185, 185);
+    min-height: 120px;
+    margin-top: 150px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+#Copy {
+    font-size: larger;
+    font-weight: lighter;
+    text-align: center;
+}
+
+/* Breakpoints for responsiveness */
+
+/* Laptop / Large tablets */
+@media screen and (max-width: 1024px) {
+    .nav-link {
+        font-size: 20px;
+    }
+    
+    .container-1 h1 span {
+        font-size: 2.5rem;
+    }
+    
+    .container-3 img, .container-4 img {
+        height: 350px;
+    }
+}
+
+/* Tablets */
+@media screen and (max-width: 900px) {
+    .container {
+        padding: 15px 5%;
+    }
+    
+    nav {
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .nav-links-group {
+        justify-content: center;
+    }
+    
+    .container-1 {
+        flex-direction: column-reverse;
+        padding: 40px 5%;
+        text-align: center;
+    }
+    
+    .container-1 p {
+        text-align: center;
+    }
+    
+    #btn-1 {
+        margin: 25px auto;
+    }
+    
+    .container-2 {
+        flex-direction: column;
+        padding: 30px 5%;
+        text-align: center;
+    }
+    
+    .newsletter-form {
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .container-3 {
+        flex-direction: column-reverse;
+        padding: 40px 5%;
+        text-align: center;
+    }
+    
+    .container-3 p {
+        text-align: center;
+    }
+    
+    .container-4 {
+        flex-direction: column-reverse;
+        padding: 40px 5%;
+        text-align: center;
+    }
+    
+    .container-4 p {
+        text-align: center;
+    }
+}
+
+/* Mobiles */
+@media screen and (max-width: 600px) {
+    .nav-links-group {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .nav-link {
+        font-size: 18px;
+    }
+    
+    .nav-search {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    #input {
+        width: 70%;
+    }
+    
+    .container-1 h1 span {
+        font-size: 1.8rem;
+    }
+    
+    .sign {
+        font-size: 24px;
+    }
+    
+    #email {
+        width: 100%;
+    }
+    
+    #btn-2 {
+        width: 100%;
+    }
+    
+    .container-3 h2 {
+        font-size: 1.8rem;
+    }
+    
+    .container-3 img, .container-4 img {
+        height: 250px;
+    }
+    
+    #Copy {
+        font-size: 1rem;
+    }
+}

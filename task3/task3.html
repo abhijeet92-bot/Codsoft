@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+     <script src="script.js"></script>
+</head>
+<style>
+   
+        
+    
+    .btn {
+    background-color: orange;
+   box-shadow: none;
+}
+.btn-1 {
+    color: green;
+}
+</style>
+<body>
+    <div class="Calculator">
+        <input id="display" type="text" placeholder="0" >
+        <div><span>
+             <button onclick="display.value = '' " class="btn-1">AC</button>
+              <button onclick="display.value = display.value.toString().slice(0,-1)" class="btn-1">DE</button>
+               <button onclick="display.value += '%' "  class="btn-1">%</button>
+                <button onclick="display.value += '/' " class="btn">/</button>
+        </div>
+         <div>
+             <button onclick="display.value += '7' " >7</button>
+              <button onclick="display.value += '8' ">8</button>
+               <button onclick="display.value += '9' ">9</button>
+                <button onclick="display.value += '*' " class="btn">*</button>
+        </div>
+         <div>
+             <button  onclick="display.value += '4' ">4</button>
+              <button onclick="display.value += '5' ">5</button>
+               <button onclick="display.value += '6' ">6</button>
+                <button onclick="display.value += '-' " class="btn">-</button>
+        </div>
+         <div>
+             <button onclick="display.value += '1' ">1</button>
+              <button onclick="display.value += '2' ">2</button>
+               <button onclick="display.value += '3' ">3</button>
+                <button onclick="display.value += '+' " class="btn" >+</button>
+        </div>
+         <div>
+             <button onclick="display.value += '00' ">00</button>
+              <button onclick="display.value += '0' ">0</button>
+               <button onclick="display.value += '.' ">.</button>
+               </span>
+                <button onclick="display.value = eval(display.value)" class="btn">=</button>
+        </div>
+
+    </div>
+</body>
+</html>
+    
