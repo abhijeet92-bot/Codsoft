@@ -1,3 +1,5 @@
+# CodSoft Web Development Internship
+
 ## 📌 Project Overview
 This repository contains the tasks completed during my **CodSoft Virtual Internship** using **HTML, CSS, and JavaScript**.
 
@@ -67,6 +69,6 @@ This project was completed as part of the **CodSoft Virtual Internship Program**
 ### Connect With Me
 
 - GitHub: https://github.com/abhijeet92-bot
-- LinkedIn: https://linkedin.com/in/abhijeetsingh
+- LinkedIn: www.linkedin.com/in/abhijeet-singh-5b17053bb
 -  Email: ayush925009@gmail.com
  
